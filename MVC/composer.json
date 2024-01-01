@@ -1,0 +1,19 @@
+{
+    "name": "my/app",
+    "description": "To test here by mariem",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mariem ibrahim"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }, "files": [
+            "app/helper.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
